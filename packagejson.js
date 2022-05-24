@@ -1,4 +1,4 @@
-{
+exports = {
   "name": "zmj-ui",
   "version": "0.1.0",
   "private": true,
@@ -11,7 +11,6 @@
     "babel-loader": "^8.2.5",
     "core-js": "^3.8.3",
     "cssnano": "^5.1.9",
-    "cssnano-preset-advanced": "^5.3.5",
     "postcss-aspect-ratio-mini": "^1.1.0",
     "postcss-cssnext": "^3.1.1",
     "postcss-import": "^14.1.0",
@@ -47,6 +46,7 @@
   "browserslist": [
     "> 1%",
     "last 2 versions",
+    // "not dead",
     "not ie 11"
   ]
 }
